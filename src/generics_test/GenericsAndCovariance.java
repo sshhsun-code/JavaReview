@@ -29,7 +29,7 @@ public class GenericsAndCovariance {
 	}
 	
 	private static void writeTo(List<? extends Number> list, Number number) {
-		list.add(number);
+//		list.add(number);
 	}
 	
 	private static List<Integer> getIntegers() {
